@@ -1,3 +1,4 @@
+<!-- Developed by Accentel Software SOlutions -->
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
@@ -11,7 +12,7 @@ if (!isset($_SESSION['username'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar Menu</title>
+    <title> Sidebar Menu</title>
     <style>
         body {
             display: flex;
@@ -53,14 +54,14 @@ if (!isset($_SESSION['username'])) {
     <div class="sidemenu">
         <h2>Menu</h2>
         <a href="#">Dashboard</a>
-        <a href="usermanagement.php">User Management</a>
-        <a href="#">Profile</a>
-        <a href="#">Settings</a>
-        <a href="logout.php">Logout</a>
+        <a href="usermanagement.php"> User Management</a>
+        <a href="#"> Profile</a>
+        <a href="#"> Settings</a>
+        <a href="logout.php"> Logout</a>
     </div>
     <div class="content">
-        <h1>Welcome, <?php echo $_SESSION['username']; ?></h1>
-        <p>This is your dashboard.</p>
+        <h1> Welcome, <?php echo $_SESSION['username']; ?></h1>
+        <p> This is your dashboard.</p>
     </div>
 </body>
 </html>
